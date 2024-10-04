@@ -1,0 +1,39 @@
+
+## Problem 2: **STRING ANALYSIS**
+
+### Problem Statement
+Given a string `s` where multiple substrings are separated by dots (`.`), your task is to:
+1. Identify the substring with the **maximum length**.
+2. Print the **maximum length** of the substring.
+
+### Input
+- A single string `s` containing substrings separated by dots (`.`).
+
+### Output
+- An integer representing the **maximum length** of the substrings.
+
+### Example 1
+```plaintext
+Input:
+s = "apple.orange.banana.grape"
+
+Output:
+6
+```
+
+**Explanation**:
+- Substrings: `["apple", "orange", "banana", "grape"]`
+- The longest substring is `"banana"` with 6 characters.
+
+### Example 2
+```plaintext
+Input:
+s = "car.bike.train.plane"
+
+Output:
+5
+```
+
+**Explanation**:
+- Substrings: `["car", "bike", "train", "plane"]`
+- The longest substring is `"plane"` with 5 characters.
